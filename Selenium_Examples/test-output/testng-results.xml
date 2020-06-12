@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Application Lauched successfully | ]]>
+    </line>
+    <line>
+      <![CDATA[First user added to Address book sucessfully ]]>
+    </line>
+    <line>
+      <![CDATA[second and third user added to Address book sucessfully ]]>
+    </line>
+    <line>
+      <![CDATA[User 1 profile sucessfully deleted]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29526" started-at="2018-10-15T00:09:03Z" finished-at="2018-10-15T00:09:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29526" started-at="2018-10-15T00:09:03Z" finished-at="2018-10-15T00:09:33Z">
+      <class name="Lsitner_LC.WebTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Lsitner_LC.WebTest@6f7fd0e6]" name="setUp" is-config="true" duration-ms="11243" started-at="2018-10-14T20:09:03Z" finished-at="2018-10-14T20:09:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Lauched successfully | ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TestWeb()[pri:0, instance:Lsitner_LC.WebTest@6f7fd0e6]" name="TestWeb" duration-ms="2262" started-at="2018-10-14T20:09:15Z" finished-at="2018-10-14T20:09:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestWeb -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Lsitner_LC.WebTest@6f7fd0e6]" name="close" is-config="true" duration-ms="1" started-at="2018-10-14T20:09:17Z" finished-at="2018-10-14T20:09:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="addAddressBook()[pri:0, instance:Lsitner_LC.WebTest@6f7fd0e6]" name="addAddressBook" duration-ms="6062" started-at="2018-10-14T20:09:17Z" finished-at="2018-10-14T20:09:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[First user added to Address book sucessfully ]]>
+            </line>
+            <line>
+              <![CDATA[second and third user added to Address book sucessfully ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addAddressBook -->
+        <test-method status="PASS" signature="updateAddressBook()[pri:0, instance:Lsitner_LC.WebTest@6f7fd0e6]" name="updateAddressBook" duration-ms="982" started-at="2018-10-14T20:09:23Z" finished-at="2018-10-14T20:09:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateAddressBook -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Lsitner_LC.WebTest@6f7fd0e6]" name="close" is-config="true" duration-ms="0" started-at="2018-10-14T20:09:23Z" finished-at="2018-10-14T20:09:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Lsitner_LC.WebTest@6f7fd0e6]" name="close" is-config="true" duration-ms="0" started-at="2018-10-14T20:09:24Z" finished-at="2018-10-14T20:09:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="deleteAddressBook()[pri:0, instance:Lsitner_LC.WebTest@6f7fd0e6]" name="deleteAddressBook" duration-ms="6857" started-at="2018-10-14T20:09:24Z" finished-at="2018-10-14T20:09:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[User 1 profile sucessfully deleted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteAddressBook -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Lsitner_LC.WebTest@6f7fd0e6]" name="close" is-config="true" duration-ms="0" started-at="2018-10-14T20:09:31Z" finished-at="2018-10-14T20:09:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:Lsitner_LC.WebTest@6f7fd0e6]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-10-14T20:09:31Z" finished-at="2018-10-14T20:09:31Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Cannot provide the input please stick to the UI constraints6.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Cannot provide the input please stick to the UI constraints6.
+
+	at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
+	at Lsitner_LC.WebTest.tearDown(WebTest.java:363)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.afterRun(TestRunner.java:1014)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Lsitner_LC.WebTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

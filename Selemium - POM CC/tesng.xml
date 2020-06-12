@@ -1,0 +1,9 @@
+<suite name="POM CC" >
+<test name="testngTest">
+ <classes>
+ <class name="DriverSetup" />
+ <class name="CommodityForm" /> 
+ <class name="TestCommodityForm" />
+ </classes>
+ </test>
+</suite>

@@ -1,0 +1,12 @@
+<suite name="POM Suite" >
+ <test name="POM Testing" >
+  <classes>
+   <class name="HomePage" />
+   <class name="HomePageTest" />
+   <class name="LoginPage" />
+   <class name="LoginTest" />
+   <class name="MyProfilePage" />
+   <class name="MyProfileTest" />
+  </classes>
+ </test>
+</suite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="POM CC" duration-ms="14637" started-at="2018-08-06T03:07:31Z" finished-at="2018-08-06T03:07:46Z">
+    <groups>
+    </groups>
+    <test name="testngTest" duration-ms="14637" started-at="2018-08-06T03:07:31Z" finished-at="2018-08-06T03:07:46Z">
+      <class name="TestCommodityForm">
+        <test-method status="PASS" signature="test_Commodity_Details()[pri:0, instance:TestCommodityForm@1b604f19]" name="test_Commodity_Details" duration-ms="14617" started-at="2018-08-05T23:07:31Z" finished-at="2018-08-05T23:07:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Commodity_Details -->
+      </class> <!-- TestCommodityForm -->
+    </test> <!-- testngTest -->
+  </suite> <!-- POM CC -->
+</testng-results>
